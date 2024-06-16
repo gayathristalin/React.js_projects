@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Merriweather", sans-serif;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+
+  gap: 20px;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  margin: 0%;
+}
+.cardcontainer {
+  border: 1px solid black;
+  padding: 100px;
+  position: relative;
+  background-color: aliceblue;
+  border-radius: 15px;
+  height: 700px;
+  width: 350px;
+  text-align: center;
+}
+.status {
+  margin-top: 10px;
+  top: 10px;
+  left: 10px;
+  /* background-color: rgb(75, 223, 75); */
+  color: black;
+  position: absolute;
+  font-size: medium;
+}
+.img {
+  border: 3px solid rgb(1, 8, 23);
+  border-radius: 50%;
+  padding: 7px;
+  margin-left: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.btn-primary {
+  padding: 10px;
+  width: 100px;
+  background-color: rgb(3, 3, 35);
+  color: white;
+  border-radius: 5px;
+}
+.btn-primaryoutline {
+  padding: 10px;
+  width: 100px;
+  border: 2px solid rgb(3, 3, 35);
+  border-radius: 5px;
+}
+.btn-primaryoutline:hover {
+  background-color: rgb(3, 3, 35);
+  color: white;
+}
+.btn-primary:hover {
+  background-color: white;
+  color: rgb(3, 3, 35);
+}
+
+.skills,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+}
+.skills ul li {
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 2px;
+  padding: 6px;
+  font-size: 12px;
+  gap: 1px;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+}
+li {
+  padding: 10px;
+}
+.designation {
+  font-weight: 100;
+}
+.location {
+  font-weight: 700;
+}
+.name {
+  font-weight: 800;
+}
+.skillstitle {
+  font-size: 18px;
+  /* border: 1px solid black; */
+  margin-bottom: 12px;
+}
+.on {
+  background-color: rgb(70, 222, 70);
+}
+.off {
+  background-color: orange;
+}
+.finaldisplay {
+  display: flex;
+  gap: 70px;
+}
