@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  border: 0;
+  background-color: rgb(224, 105, 105);
+
+  font-family: "Poppins";
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 350px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgb(142, 4, 4);
+}
+.input-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid red;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cityinput {
+  flex: 1;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+}
+.search-icon {
+  padding: 10px;
+  height: 30px;
+  cursor: pointer;
+}
+.searchimg {
+  margin-top: 5px;
+}
+.image {
+  text-align: center;
+}
+.image img {
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+.temp,
+.city,
+.country {
+  margin-top: 3px;
+  font-size: 25px;
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+}
+.temp {
+  font-weight: 500;
+}
+.city {
+  color: rgba(226, 43, 43, 0.614);
+}
+.country {
+  font-size: 18px;
+  font-weight: 500;
+}
+.cord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.cord div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cord div span {
+  font-size: 14px;
+}
+.cord div span:nth-child(2) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  padding: 5px;
+}
+.data-container {
+  display: flex;
+  justify-content: space-between;
+}
+.element {
+  text-align: center;
+}
+.text {
+  text-align: center;
+  color: #666;
+}
+.copyright {
+  text-align: center;
+
+  padding: 5px;
+  font-size: 12px;
+}
+.copyright span {
+  color: #666;
+}
+.loading {
+  text-align: center;
+  color: #666;
+  font-size: 20px;
+}
+.city-not-available {
+  text-align: center;
+  color: #666;
+  font-size: 30px;
+}
+img {
+  width: 90px;
+  height: 90px;
+}
